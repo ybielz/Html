@@ -2,6 +2,12 @@
 
 use App\Models\Ator;
 use App\Models\Genero;
+use App\Models\Nacionalidade;
+use App\Models\Diretor;
+use App\Models\Filme;
+use App\Models\Produtora;
+
+
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
