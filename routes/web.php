@@ -19,11 +19,31 @@ Route::get('/chavao/{serie}', function($serie){
 Route::view('/quico', 'sobre');
 
 Route::get('/generos', function() {
-      $nhonho = Genero::all();
-      dd($nhonho);
+    $generos = Genero::all();
+    dd($generos);
 });
 
 Route::get('/atores', function() {
     $atores = Ator::all();
     dd($atores);
+});
+
+Route::get('/nacionalidades', function() {
+    $nacionalidades = Nacionalidade::all();
+    dd($nacionalidades);
+});
+
+Route::get('/diretores', function() {
+    $diretores = Diretor::all();
+    dd($diretores);
+});
+
+Route::get('/produtoras', function() {
+    $produtoras = Produtora::all();
+    dd($produtoras);
+});
+
+Route::get('/filmes', function() {
+    $filmes = Filme::all();
+    dd($filmes);
 });
