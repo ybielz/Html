@@ -19,7 +19,10 @@ class GeneroSeeder extends Seeder
             ['nome'=>"Comédia"],
             ['nome'=>"Drama"],
             ['nome'=>"Suspense"],
-            
+            ['nome'=>"Suspense"],
+            ['nome'=>"Suspense"],
+            ['nome'=>"Suspense"],
+
         );
     }
 }
