@@ -13,15 +13,12 @@ class ProdutoraSeeder extends Seeder
      */
     public function run(): void
     {
-        DB::table('produtoras')->insert(
-            ['nome'=>"Warner Bros. Pictures"],
-            ['nome'=>"Universal Pictures"],
-            ['nome'=>"Walt Disney Pictures"],
-            ['nome'=>"Paramount"],
-            ['nome'=>"Columbia Pictures (Sony Pictures)"],
-            ['nome'=>"Lionsgate"],
-            ['nome'=>"DreamWorks Pictures"],
-            ['nome'=>"A24"],
-        );
+        DB::table('produtoras')->insert([
+            ['id'=> 1,'nome'=>"Warner Bros. Pictures"],
+            ['id'=> 2,'nome'=>"Universal Pictures"],
+            ['id'=> 3,'nome'=>"Walt Disney Pictures"],
+            ['id'=> 4,'nome'=>"Paramount"],
+            ['id'=> 5,'nome'=>"Columbia Pictures (Sony Pictures)"],
+        ]);
     }
 }

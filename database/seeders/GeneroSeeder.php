@@ -13,23 +13,23 @@ class GeneroSeeder extends Seeder
      */
     public function run(): void
     {
-        DB::table('generos')->insert(
-            ['nome'=>"Terror"],//1
-            ['nome'=>"Romance"],//2
-            ['nome'=>"Comédia"],//3
-            ['nome'=>"Drama"],//4
-            ['nome'=>"Ação"],//5
-            ['nome'=>"Sci-fi"],//6
-            ['nome'=>"Animado"],//7
-            ['nome'=>"Pós-Apocalíptico"],//8
-            ['nome'=>"Crime"],//9
-            ['nome'=>"Aventura"],//10
-            ['nome'=>"Mistério"],//11
-            ['nome'=>"Super-Herói"],//12
-            ['nome'=>"Noir"],//13
-            ['nome'=>"Musical"],//14
-            ['nome'=>"Histórico"],//15
+        DB::table('generos')->insert([
+            ['id'=> 1,'nome'=>"Terror"],//1
+            ['id'=> 2,'nome'=>"Romance"],//2
+            ['id'=> 3,'nome'=>"Comédia"],//3
+            ['id'=> 4,'nome'=>"Drama"],//4
+            ['id'=> 5,'nome'=>"Ação"],//5
+            ['id'=> 6,'nome'=>"Sci-fi"],//6
+            ['id'=> 7,'nome'=>"Animado"],//7
+            ['id'=> 8,'nome'=>"Pós-Apocalíptico"],//8
+            ['id'=> 9,'nome'=>"Crime"],//9
+            ['id'=> 10,'nome'=>"Aventura"],//10
+            ['id'=> 11,'nome'=>"Mistério"],//11
+            ['id'=> 12,'nome'=>"Super-Herói"],//12
+            ['id'=> 13,'nome'=>"Noir"],//13
+            ['id'=> 14,'nome'=>"Musical"],//14
+            ['id'=> 15,'nome'=>"Histórico"],//15
 
-        );
+        ]);
     }
 }

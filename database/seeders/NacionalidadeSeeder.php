@@ -13,17 +13,12 @@ class NacionalidadeSeeder extends Seeder
      */
     public function run(): void
     {
-        DB::table('nacionalidades')->insert(
-            ['nome'=> "Nigeriano" ], //1
-            ['nome'=> "Inglês" ], //2
-            ['nome'=> "Coreano" ],//3
-            ['nome'=> "Japonês" ],//4
-            ['nome'=> "Nórdico" ],//5
-            ['nome'=> "Africano" ],//6
-            ['nome'=> "Espanhol" ],//7
-            ['nome'=> "Sueco" ],//8
-            ['nome'=> "Tcheco" ],//9
-            ['nome'=> "Brasileiro" ],//10
-        );
+        DB::table('nacionalidades')->insert([
+            ['id'=> 1,'nome'=> "Nigeriano"], //1
+            ['id'=> 2,'nome'=> "Inglês"], //2
+            ['id'=> 3,'nome'=> "Coreano"],//3
+            ['id'=> 4,'nome'=> "Japonês"],//4
+            ['id'=> 5,'nome'=> "Nórdico"],//5
+        ]);
     }
 }

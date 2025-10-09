@@ -21,12 +21,12 @@ class DatabaseSeeder extends Seeder
         //]);
 
         $this->call([
+            NacionalidadeSeeder::class,
+            ProdutoraSeeder::class,
+            DiretorSeeder::class,
             GeneroSeeder::class,
             AtorSeeder::class,
-            NacionalidadeSeeder::class,
-            DiretorSeeder::class,
             FilmeSeeder::class,
-            ProdutoraSeeder::class,
         ]);
     }
 }
