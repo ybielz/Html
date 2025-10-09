@@ -20,7 +20,7 @@ class DiretorSeeder extends Seeder
             ['nome'=>"Dex",'descricao'=>"Diretor especializado em romance ",'nacionalidade_id'=> 3],
             ['nome'=>"Rogério",'descricao'=>"Diretor especializado em comédia ",'nacionalidade_id'=> 5],
             ['nome'=>"Julliano",'descricao'=>"Diretor especializado em live-actions de anime ",'nacionalidade_id'=> 6],
-            ['nome'=>"Julliano",'descricao'=>"Diretor especializado em live-actions de anime ",'nacionalidade_id'=> 6],
+            ['nome'=>"Muninz",'descricao'=>"Diretor especializado em live-actions de anime ",'nacionalidade_id'=> 6],
             ['nome'=>"Luan",'descricao'=>"Diretor especializado em live-actions de anime ",'nacionalidade_id'=> 8],
 
 

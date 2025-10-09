@@ -14,17 +14,14 @@ class ProdutoraSeeder extends Seeder
     public function run(): void
     {
         DB::table('produtoras')->insert(
-            ['nome'=>"Juninho"],
-            ['nome'=>"Juninho"],
-            ['nome'=>"Juninho"],
-            ['nome'=>"Juninho"],
-            ['nome'=>"Juninho"],
-            ['nome'=>"Juninho"],
-            ['nome'=>"Juninho"],
-            ['nome'=>"Juninho"],
-            ['nome'=>"Juninho"],
-            ['nome'=>"Juninho"],
-
+            ['nome'=>"Warner Bros. Pictures"],
+            ['nome'=>"Universal Pictures"],
+            ['nome'=>"Walt Disney Pictures"],
+            ['nome'=>"Paramount"],
+            ['nome'=>"Columbia Pictures (Sony Pictures)"],
+            ['nome'=>"Lionsgate"],
+            ['nome'=>"DreamWorks Pictures"],
+            ['nome'=>"A24"],
         );
     }
 }

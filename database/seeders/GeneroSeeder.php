@@ -14,14 +14,21 @@ class GeneroSeeder extends Seeder
     public function run(): void
     {
         DB::table('generos')->insert(
-            ['nome'=>"Terror"],
-            ['nome'=>"Romance"],
-            ['nome'=>"Comédia"],
-            ['nome'=>"Drama"],
-            ['nome'=>"Suspense"],
-            ['nome'=>"Suspense"],
-            ['nome'=>"Suspense"],
-            ['nome'=>"Suspense"],
+            ['nome'=>"Terror"],//1
+            ['nome'=>"Romance"],//2
+            ['nome'=>"Comédia"],//3
+            ['nome'=>"Drama"],//4
+            ['nome'=>"Ação"],//5
+            ['nome'=>"Sci-fi"],//6
+            ['nome'=>"Animado"],//7
+            ['nome'=>"Pós-Apocalíptico"],//8
+            ['nome'=>"Crime"],//9
+            ['nome'=>"Aventura"],//10
+            ['nome'=>"Mistério"],//11
+            ['nome'=>"Super-Herói"],//12
+            ['nome'=>"Noir"],//13
+            ['nome'=>"Musical"],//14
+            ['nome'=>"Histórico"],//15
 
         );
     }
